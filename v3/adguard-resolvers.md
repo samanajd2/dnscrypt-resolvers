@@ -1,4 +1,4 @@
-# public-resolvers
+# adguard-resolvers
 
 This is an extensive list of public DNS resolvers supporting the
 DNSCrypt and DNS-over-HTTP2 protocols.
@@ -15,8 +15,8 @@ according to your needs.
 To use that list, add this to the `[sources]` section of your
 `dnscrypt-proxy.toml` configuration file:
 
-    [sources.'public-resolvers']
-    urls = ['https://raw.githubusercontent.com/samanajd2/dnscrypt-resolvers/refs/heads/master/v3/public-resolvers.md']
+    [sources.'adguard-resolvers']
+    urls = ['https://raw.githubusercontent.com/samanajd2/dnscrypt-resolvers/refs/heads/master/v3/adguard-resolvers.md']
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
     cache_file = 'public-resolvers.md'
 
